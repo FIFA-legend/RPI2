@@ -1,0 +1,42 @@
+body {
+    margin: 10px auto;
+    width: 100%;
+}
+
+.pane {
+    margin: 20px;
+    height: 370px;
+    width: 400px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background: lightgreen;
+}
+
+.close_button {
+    font-size: 110%;
+    color: black;
+    right: 10px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    float: right;
+    margin: 10px;
+}
+
+.disable_checkbox {
+    float: left;
+    color: white;
+}
+
+.disable_checkbox input {
+    cursor: pointer;
+}
+
+.slider_dots {
+    position: relative;
+    left: 25%;
+    float: right;
+}
